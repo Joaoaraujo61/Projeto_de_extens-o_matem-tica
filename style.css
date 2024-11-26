@@ -1,0 +1,93 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.6;
+    background-image: url(math_website_background.jpg);
+    color: #000000;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Define a altura da tela */
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    background: #616841b5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    background-color: #616841b5;
+    padding: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    background-color: #e5e6ceca;  
+    padding: 20px;  
+    border-radius: 8px;  
+    margin-bottom: 20px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+section h2 {
+    font-size: 2rem;  
+    color: #35424a;  
+    margin-bottom: 15px;  
+    text-align: center;  
+    font-family: 'Arial', sans-serif;  
+}
+
+section p {
+    font-size: 1.1rem;  
+    line-height: 1.8;  
+    color: #333333;  
+    margin-bottom: 15px;  
+    font-family: 'Georgia', serif;  
+}
+
+section ul {
+    list-style-type: square;  
+    padding-left: 20px;  
+}
+
+section ul li {
+    font-size: 1rem;  
+    color: #35424a;  
+    margin-bottom: 10px;  
+}
+
+section a {
+    color: #35424a;  
+    text-decoration: none;  
+    transition: color 0.3s ease;  
+}
+
+section a:hover {
+    color: #DAE89E;  
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #616841b5;
+    color: #fff;
+}
+

@@ -1,1 +1,0 @@
-console.log('Bem-vindo ao site de Matemática Fundamental!');
